@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS selector</title>
+	<style type="text/css">
+		*{
+			color: #223366;
+			margin: 0;
+			padding: 0;
+		}
+		#p1{
+			color: violet;
+		}
+		#p2{
+			color: brown;
+		}
+		.c1{
+			color:#445566; 
+		}
+		/*.c2{
+			color: green;
+		}
+		.c3{
+			color: blue;
+		}*/
+		h1{
+			font-size: 40px;
+		}
+		p,a,span{
+			font-size: 20px;
+		}
+		p[title="para"]{
+			color: red;
+		}
+		p>a{
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+<h1 style="color: pink;font-size: 50px;">Hello Japanese Bootcamper!</h1>
+
+<p id="p1">Hello how are you..Hello how are you..Hello how are you..Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..Hello how are you..Hello how are you..Hello how are you..
+Hello how are you..<span class="c1">Hello how are you..</span>Hello how are you..Hello how are you..Hello how are you..</p><br>
+<p id="p2">Hello how are you..Hello how are you..Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..Hello how are you..Hello how are you..Hello how are you..</p><br>
+
+<p title="para">Hello how are you..Hello how are you..Hello how are you..Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..<span><a href="">Hello how are you..</a></span>Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..Hello how are you..Hello how are you..</p><br>
+
+<p title="para">Hello how are you..Hello how are you..Hello how are you..Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..<a href="">Hello how are you..</a>Hello how are you..Hello how are you..
+Hello how are you..Hello how are you..Hello how are you..Hello how are you..</p>
+<h1 class="c1">Good Morning</h1>
+<h1 class="c1">Hello Everyone</h1>
+<h1 class="c1">Hello Css Lesson</h1>
+
+</body>
+</html>
